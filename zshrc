@@ -45,7 +45,7 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
-export PATH=$PATH:/Users/imogen/.gem/ruby/2.0.0/bin:/Users/imogen/.rbenv/shims:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin
+export PATH=$HOME/.rbenv/bin:$HOME/.rbenv/shims:$PATH
 
 export NVM_DIR="/Users/imogen/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
